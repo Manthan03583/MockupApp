@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mockup App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alicia_keys">Alicia Keys</string>
+    <string name="san_francsico_ca">San Francsico, CA</string>
+    <string name="imagebutton">ImageButton</string>
+    <string name="chat">chat</string>
+    <string name="channing_tatum">Channing Tatum</string>
+    <string name="_1_689_followers">1 689 Followers</string>
+    <string name="_732_following">732 Following</string>
+    <string name="_45_minutes_ago">45 minutes ago</string>
+</resources>

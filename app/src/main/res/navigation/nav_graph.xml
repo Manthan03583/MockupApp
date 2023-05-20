@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/aliciaProfileFragment"
+        android:name="com.example.mockupapp.screens.AliciaProfileFragment"
+        android:label="fragment_alicia_profile"
+        tools:layout="@layout/fragment_alicia_profile" >
+        <action
+            android:id="@+id/action_aliciaProfileFragment_to_tatumProfileFragment"
+            app:destination="@id/tatumProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tatumProfileFragment"
+        android:name="com.example.mockupapp.screens.TatumProfileFragment"
+        android:label="fragment_tatum_profile"
+        tools:layout="@layout/fragment_tatum_profile" >
+        <action
+            android:id="@+id/action_tatumProfileFragment_to_aliciaProfileFragment"
+            app:destination="@id/aliciaProfileFragment" />
+    </fragment>
+</navigation>
